@@ -1,0 +1,87 @@
+2019-09-01 13:37:55 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:39:52 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:41:11 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:42:23 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:42:24 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-01 13:42:24 INFO  HomePageTest:72 - pcIcon.isDisplayed() passed!
+2019-09-01 13:46:39 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:46:39 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-01 13:46:39 INFO  HomePageTest:73 - pcIcon.isDisplayed() passed!
+2019-09-01 13:48:54 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:48:54 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-01 13:48:54 INFO  HomePageTest:73 - pcIcon.isDisplayed() passed!
+2019-09-01 13:51:03 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:51:03 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-01 13:51:03 INFO  HomePageTest:73 - pcIcon.isDisplayed() passed!
+2019-09-01 13:53:53 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:53:53 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-01 13:53:53 INFO  HomePageTest:73 - pcIcon.isDisplayed() passed!
+2019-09-01 13:55:45 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:55:45 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-01 13:55:45 INFO  HomePageTest:73 - pcIcon.isDisplayed() passed!
+2019-09-01 13:58:40 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-01 13:58:40 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-01 13:58:41 INFO  HomePageTest:73 - pcIcon.isDisplayed() passed!
+2019-09-01 13:58:41 INFO  HomePageTest:85 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-06 17:54:37 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-06 17:54:38 INFO  HomePageTest:67 - desktopIcon.isDisplayed() passed!
+2019-09-06 17:54:38 INFO  HomePageTest:73 - pcIcon.isDisplayed() passed!
+2019-09-06 17:54:38 INFO  HomePageTest:85 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-06 18:21:17 INFO  HomePageTest:58 - User is navigated to the website successful
+2019-09-06 18:21:17 INFO  HomePageTest:68 - desktopIcon.isDisplayed() passed!
+2019-09-06 18:21:17 INFO  HomePageTest:74 - pcIcon.isDisplayed() passed!
+2019-09-06 18:22:46 INFO  HomePageTest:58 - User is navigated to the website successful
+2019-09-06 18:22:46 INFO  HomePageTest:68 - desktopIcon.isDisplayed() passed!
+2019-09-06 18:22:46 INFO  HomePageTest:74 - pcIcon.isDisplayed() passed!
+2019-09-06 18:22:47 INFO  HomePageTest:86 - Screenshot is taken
+2019-09-06 20:20:43 INFO  techpath:46 - The Website URL is up and running 
+2019-09-06 20:20:48 INFO  techpath:60 - My Account button is clicked
+2019-09-06 20:20:48 INFO  techpath:68 - Username is inserted
+2019-09-06 20:20:49 INFO  techpath:105 - Info Message!
+2019-09-06 20:20:49 WARN  techpath:106 - Warn Message!
+2019-09-06 20:20:49 ERROR techpath:107 - Error Message!
+2019-09-06 20:20:49 FATAL techpath:108 - Fatal Message!
+2019-09-06 20:21:06 INFO  HomePageTest:62 - User is navigated to the website successful
+2019-09-06 20:22:27 INFO  techpath:46 - The Website URL is up and running 
+2019-09-06 20:22:32 INFO  techpath:60 - My Account button is clicked
+2019-09-06 20:22:32 INFO  techpath:68 - Username is inserted
+2019-09-06 20:22:33 INFO  techpath:105 - Info Message!
+2019-09-06 20:22:33 WARN  techpath:106 - Warn Message!
+2019-09-06 20:22:33 ERROR techpath:107 - Error Message!
+2019-09-06 20:22:33 FATAL techpath:108 - Fatal Message!
+2019-09-06 20:22:50 INFO  HomePageTest:62 - User is navigated to the website successful
+2019-09-06 20:23:27 INFO  HomePageTest:62 - User is navigated to the website successful
+2019-09-06 20:25:25 INFO  HomePageTest:62 - User is navigated to the website successful
+2019-09-06 20:26:20 INFO  techpath:46 - The Website URL is up and running 
+2019-09-06 20:26:24 INFO  techpath:60 - My Account button is clicked
+2019-09-06 20:26:25 INFO  techpath:68 - Username is inserted
+2019-09-06 20:26:25 INFO  techpath:105 - Info Message!
+2019-09-06 20:26:25 WARN  techpath:106 - Warn Message!
+2019-09-06 20:26:25 ERROR techpath:107 - Error Message!
+2019-09-06 20:26:25 FATAL techpath:108 - Fatal Message!
+2019-09-06 20:26:42 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-06 20:26:43 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-06 20:26:43 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-06 20:26:43 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-06 20:29:22 INFO  techpath:46 - The Website URL is up and running 
+2019-09-06 20:29:27 INFO  techpath:60 - My Account button is clicked
+2019-09-06 20:29:27 INFO  techpath:68 - Username is inserted
+2019-09-06 20:29:28 INFO  techpath:105 - Info Message!
+2019-09-06 20:29:28 WARN  techpath:106 - Warn Message!
+2019-09-06 20:29:28 ERROR techpath:107 - Error Message!
+2019-09-06 20:29:28 FATAL techpath:108 - Fatal Message!
+2019-09-06 20:29:45 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-06 20:29:45 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-06 20:29:45 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-06 20:29:46 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-06 20:48:47 INFO  techpath:46 - The Website URL is up and running 
+2019-09-06 20:48:52 INFO  techpath:60 - My Account button is clicked
+2019-09-06 20:48:52 INFO  techpath:68 - Username is inserted
+2019-09-06 20:48:53 INFO  techpath:105 - Info Message!
+2019-09-06 20:48:53 WARN  techpath:106 - Warn Message!
+2019-09-06 20:48:53 ERROR techpath:107 - Error Message!
+2019-09-06 20:48:53 FATAL techpath:108 - Fatal Message!
+2019-09-06 20:49:10 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-06 20:49:11 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-06 20:49:11 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-06 20:49:11 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
