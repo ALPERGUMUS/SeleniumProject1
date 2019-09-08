@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate if the guest user is able to login to the website.",
+        "description": "",
+        "id": "login-to-the-website;validate-if-the-guest-user-is-able-to-login-to-the-website.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6448634900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open browser",
+            "match": {
+              "location": "LoginStep.open_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6060685900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter URL",
+            "match": {
+              "location": "LoginStep.enter_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583252500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on My Account Tab",
+            "match": {
+              "location": "LoginStep.click_on_My_Account_Tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149477400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter Username",
+            "match": {
+              "location": "LoginStep.enter_Username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91136900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter Password",
+            "match": {
+              "location": "LoginStep.enter_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 513006000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on the login button",
+            "match": {
+              "location": "LoginStep.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5538900800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user succesfully logins to My Account",
+            "match": {
+              "location": "LoginStep.user_succesfully_logins_to_My_Account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login to the website",
+    "description": "",
+    "id": "login-to-the-website",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

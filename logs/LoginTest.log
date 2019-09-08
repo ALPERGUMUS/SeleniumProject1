@@ -85,3 +85,94 @@
 2019-09-06 20:49:11 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
 2019-09-06 20:49:11 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
 2019-09-06 20:49:11 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 08:15:14 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 08:15:14 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 08:15:14 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 08:15:15 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 08:16:12 INFO  techpath:46 - The Website URL is up and running 
+2019-09-07 08:16:18 INFO  techpath:60 - My Account button is clicked
+2019-09-07 08:16:19 INFO  techpath:68 - Username is inserted
+2019-09-07 08:16:19 INFO  techpath:105 - Info Message!
+2019-09-07 08:16:19 WARN  techpath:106 - Warn Message!
+2019-09-07 08:16:19 ERROR techpath:107 - Error Message!
+2019-09-07 08:16:19 FATAL techpath:108 - Fatal Message!
+2019-09-07 08:16:36 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 08:16:36 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 08:16:36 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 08:16:37 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 09:14:45 INFO  techpath:44 - The Website URL is up and running 
+2019-09-07 09:14:50 INFO  techpath:58 - My Account button is clicked
+2019-09-07 09:14:51 INFO  techpath:66 - Username is inserted
+2019-09-07 09:14:51 ERROR techpath:113 - My Account title did not match
+2019-09-07 09:14:51 INFO  techpath:114 - The title is shown as Account Login
+2019-09-07 09:16:03 INFO  techpath:44 - The Website URL is up and running 
+2019-09-07 09:16:07 INFO  techpath:58 - My Account button is clicked
+2019-09-07 09:16:08 INFO  techpath:66 - Username is inserted
+2019-09-07 09:16:08 ERROR techpath:113 - My Account title did not match
+2019-09-07 09:16:08 INFO  techpath:114 - The title is shown as Account Login
+2019-09-07 10:18:51 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 10:18:56 INFO  techpath:78 - My Account button is clicked
+2019-09-07 10:18:57 INFO  techpath:86 - Username is inserted
+2019-09-07 10:18:57 INFO  techpath:129 - My Account title has matched succesfully
+2019-09-07 10:19:15 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 10:19:16 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 10:19:16 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 10:19:16 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 10:22:47 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 10:22:52 INFO  techpath:78 - My Account button is clicked
+2019-09-07 10:22:52 INFO  techpath:86 - Username is inserted
+2019-09-07 10:22:53 INFO  techpath:129 - My Account title has matched succesfully
+2019-09-07 10:23:10 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 10:23:11 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 10:23:11 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 10:23:11 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 11:00:10 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 11:00:14 INFO  techpath:78 - My Account button is clicked
+2019-09-07 11:00:15 INFO  techpath:86 - Username is inserted
+2019-09-07 11:01:12 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 11:01:12 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 11:01:13 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 11:01:13 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 11:38:02 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 11:38:07 INFO  techpath:78 - My Account button is clicked
+2019-09-07 11:38:07 INFO  techpath:86 - Username is inserted
+2019-09-07 11:39:16 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 11:39:21 INFO  techpath:78 - My Account button is clicked
+2019-09-07 11:39:21 INFO  techpath:86 - Username is inserted
+2019-09-07 11:39:22 INFO  techpath:129 - My Account title has matched succesfully
+2019-09-07 11:39:39 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 11:39:39 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 11:39:40 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 11:39:40 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 11:40:39 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 11:40:43 INFO  techpath:78 - My Account button is clicked
+2019-09-07 11:40:44 INFO  techpath:86 - Username is inserted
+2019-09-07 11:40:44 INFO  techpath:129 - My Account title has matched succesfully
+2019-09-07 11:44:54 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 11:44:59 INFO  techpath:78 - My Account button is clicked
+2019-09-07 11:44:59 INFO  techpath:86 - Username is inserted
+2019-09-07 11:45:00 INFO  techpath:129 - My Account title has matched succesfully
+2019-09-07 11:45:18 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 11:45:18 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 11:45:18 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 11:45:19 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 14:52:17 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 14:52:21 INFO  techpath:78 - My Account button is clicked
+2019-09-07 14:52:22 INFO  techpath:86 - Username is inserted
+2019-09-07 14:52:22 INFO  techpath:129 - My Account title has matched succesfully
+2019-09-07 14:52:40 INFO  HomePageTest:61 - User is navigated to the website successful
+2019-09-07 14:52:40 INFO  HomePageTest:71 - desktopIcon.isDisplayed() passed!
+2019-09-07 14:52:40 INFO  HomePageTest:77 - pcIcon.isDisplayed() passed!
+2019-09-07 14:52:41 INFO  HomePageTest:89 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00
+2019-09-07 15:42:57 INFO  HomePageTest:58 - User is navigated to the website successful
+2019-09-07 15:44:59 INFO  HomePageTest:59 - User is navigated to the website successful
+2019-09-07 15:50:04 INFO  HomePageTest:59 - User is navigated to the website successful
+2019-09-07 15:50:53 INFO  HomePageTest:59 - User is navigated to the website successful
+2019-09-07 19:37:40 INFO  techpath:64 - The Website URL is up and running 
+2019-09-07 19:37:44 INFO  techpath:78 - My Account button is clicked
+2019-09-07 19:37:45 INFO  techpath:86 - Username is inserted
+2019-09-07 19:37:45 INFO  techpath:129 - My Account title has matched succesfully
+2019-09-07 19:38:04 INFO  HomePageTest:57 - User is navigated to the website successful
+2019-09-07 19:38:04 INFO  HomePageTest:65 - desktopIcon.isDisplayed() passed!
+2019-09-07 19:38:04 INFO  HomePageTest:71 - pcIcon.isDisplayed() passed!
+2019-09-07 19:38:04 INFO  HomePageTest:83 - 0 item(s) - $0.00 is equal to 0 item(s) - $0.00

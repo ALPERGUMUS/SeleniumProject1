@@ -1,25 +1,27 @@
 package com.techpath.testcases;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
-import org.testng.AssertJUnit;
+import org.testng.annotations.Parameters;
+
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import com.techpath.utilities.ConfigReader;
+import com.techpath.utilities.ScreenShotTaker;
 
 public class LoginTest {
 
@@ -29,17 +31,33 @@ public class LoginTest {
 
 	public static Logger logger;
 
+	
+	@Parameters("browser")
 	@BeforeClass
-	public void setup() {
+	public void setup(String browser) {
 
 		logger = Logger.getLogger("techpath");
 		PropertyConfigurator.configure("log4j.properties");
 
-		// System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
-		// + "\\drivers\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "./drivers\\chromedriver.exe");
+		if (browser.contentEquals("chrome")) {
 
-		driver = new ChromeDriver();
+			// System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")
+			// + "//drivers//chromedriver.exe");
+
+			System.setProperty("webdriver.chrome.driver", reader.getChromePath());
+			driver = new ChromeDriver();
+
+		} else if (browser.contentEquals("firefox")) {
+
+			System.setProperty("webdriver.gecko.driver", reader.getFirefoxPath());
+			driver = new FirefoxDriver();
+
+		} else if (browser.contentEquals("ie")) {
+
+			System.setProperty("webdriver.ie.driver", reader.getIEPath());
+			driver = new InternetExplorerDriver();
+
+		}
 
 		driver.get(reader.getWebURL());
 
@@ -52,7 +70,7 @@ public class LoginTest {
 	}
 
 	@Test
-	public void Login() throws InterruptedException {
+	public void Login() throws Exception {
 
 		WebElement myAcctButton = driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a"));
 		myAcctButton.click();
@@ -72,8 +90,7 @@ public class LoginTest {
 
 		WebElement loginButton2 = driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[2]/div/form/input"));
 		loginButton2.click();
-		
-		
+
 //		WebElement addtoCart = driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[1]/div/div[3]/button[1]/span"));
 //		addtoCart.click();
 //		
@@ -97,26 +114,35 @@ public class LoginTest {
 //			
 //			Assert.fail();
 //		}
-		
-		
 
-	      logger.trace("Trace Message!");
-	      logger.debug("Debug Message!");
-	      logger.info("Info Message!");
-	      logger.warn("Warn Message!");
-	      logger.error("Error Message!");
-	      logger.fatal("Fatal Message!");
+//		logger.trace("Trace Message!");
+//		logger.debug("Debug Message!");
+//		logger.info("Info Message!");
+//		logger.warn("Warn Message!");
+//		logger.error("Error Message!");
+//		logger.fatal("Fatal Message!");
+
+		System.out.println();
+
+		if (driver.getTitle().contentEquals("My Account")) {
+
+			logger.info("My Account title has matched succesfully");
+
+		} else {
+
+			logger.error("My Account title did not match");
+			logger.info("The title is shown as " + driver.getTitle());
+			ScreenShotTaker.captureScreen(driver, "Login");
+		}
 		
-		
-		System.out.println(driver.getTitle());
-		AssertJUnit.assertEquals(driver.getTitle(), "My Account");
-	
+		ScreenShotTaker.captureScreen(driver, "Login");
 		Thread.sleep(5000);
 	}
 
 	@AfterClass
 	public void tearDown() {
 
+		driver.close();
 		driver.quit();
 
 	}

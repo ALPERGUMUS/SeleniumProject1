@@ -10,11 +10,10 @@ public class ConfigReader {
 
 	Properties prop;
 
-
 	public ConfigReader() {
 
 		try {
-			
+
 			prop = new Properties();
 
 			String filePath = "./configurations//config.properties";
@@ -31,9 +30,9 @@ public class ConfigReader {
 	}
 
 	public String getWebURL() {
-		
+
 		String websiteName = prop.getProperty("webURL");
-		
+
 		return websiteName;
 	}
 
@@ -43,5 +42,20 @@ public class ConfigReader {
 
 	public String getPassword() {
 		return prop.getProperty("password");
+	}
+
+	public String getChromePath() {
+
+		return prop.getProperty("chromepath");
+	}
+
+	public String getFirefoxPath() {
+
+		return prop.getProperty("firefoxpath");
+	}
+
+	public String getIEPath() {
+
+		return prop.getProperty("iepath");
 	}
 }

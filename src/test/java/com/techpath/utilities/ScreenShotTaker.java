@@ -9,19 +9,23 @@ import org.openqa.selenium.WebDriver;
 
 public class ScreenShotTaker {
 
-	public static void captureScreen(WebDriver webdriver, String tname) throws Exception {
+	public static void captureScreen(WebDriver driver, String testName) throws Exception {
 
-		TakesScreenshot scrShot = ((TakesScreenshot) webdriver);
+		TakesScreenshot scrShot = (TakesScreenshot) driver;
+		
 		File SrcFile = scrShot.getScreenshotAs(OutputType.FILE);
-		File DestFile = new File(System.getProperty("user.dir") + "/screenshots/" + tname + ".png");
+		
+		File DestFile = new File(System.getProperty("user.dir") + "/screenshots/" + testName + ".png");
+		
 		FileUtils.copyFile(SrcFile, DestFile);
 
 		System.out.println("Screenshot is taken");
 
 		/*
-		 * 
-		 * <dependency> <groupId>org.apache.directory.studio</groupId>
-		 * <artifactId>org.apache.commons.io</artifactId> <version>2.4</version>
+		 * <dependency> 
+		 * <groupId>org.apache.directory.studio</groupId>
+		 * <artifactId>org.apache.commons.io</artifactId> 
+		 * <version>2.4</version>
 		 * </dependency>
 		 */
 

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.techpath.testcases.HomePageTest">
+      <class name="com.techpath.runners.TestRunner">
         <methods>
-          <include name="test2"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- com.techpath.testcases.HomePageTest -->
+      </class> <!-- com.techpath.runners.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

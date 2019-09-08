@@ -1,7 +1,5 @@
 package com.techpath.testcases;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
@@ -12,10 +10,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 import com.techpath.utilities.ConfigReader;
+import com.techpath.utilities.ScreenShotTaker;
 
-public class HomePageTest {
+public class Camera {
 
 	WebDriver driver;
 	Logger logger;
@@ -44,7 +45,6 @@ public class HomePageTest {
 	@AfterClass
 	public void tearDown() {
 
-		driver.close();
 		driver.quit();
 
 	}
@@ -52,36 +52,35 @@ public class HomePageTest {
 	@Test
 	public void test1() {
 
+
+
 		Assert.assertEquals(driver.getTitle(), "The Ninja Store");
 
 		logger.info("User is navigated to the website successful");
 	}
 
 	@Test
-	public void test2() {
+	public void test2() throws Exception {
 
-		WebElement desktopIcon = driver.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/a"));
-		Assert.assertTrue(desktopIcon.isDisplayed());
-		logger.info("desktopIcon.isDisplayed() passed!");
+		driver.get(reader.getWebURL());
+		
+		
+		WebElement cameraTab = driver.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[7]/a"));
+		Assert.assertTrue(cameraTab.isDisplayed());
+		cameraTab.click();
+		
+		WebElement canonCamera = driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[1]/div/div[2]/div[1]/h4/a"));
+		Assert.assertTrue(canonCamera.isDisplayed());
+		canonCamera.click();
+		
+		
+		WebElement addtoCart = driver.findElement(By.xpath("//button[@id=\"button-cart\"][.='Add to Cart']"));
+		addtoCart.click();
+		
+		Thread.sleep(3000);
+		
+		ScreenShotTaker.captureScreen(driver, "camera");
 
-		desktopIcon.click();
-
-		WebElement pcIcon = driver.findElement(By.xpath("//*[@id=\"menu\"]/div[2]/ul/li[1]/div/div/ul/li[1]/a"));
-		Assert.assertTrue(pcIcon.isDisplayed());
-		logger.info("pcIcon.isDisplayed() passed!");
-
-		pcIcon.click();
-
-		Assert.assertTrue(driver.getTitle().contentEquals("PC"));
-
-		WebElement icon = driver.findElement(By.xpath("//span[@id='cart-total'][.='0 item(s) - $0.00']"));
-		Assert.assertTrue(icon.isDisplayed());
-		icon.click();
-
-		Assert.assertEquals(icon.getText(), "0 item(s) - $0.00");
-
-		logger.info(icon.getText() + " is equal to 0 item(s) - $0.00");
 
 	}
-
 }
